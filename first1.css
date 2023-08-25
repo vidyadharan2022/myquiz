@@ -1,0 +1,81 @@
+html{
+    height: 100%;
+    background-image: url(pexels-tobias-bjørkli-2113566.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.app{
+    background:rgb(80, 103, 134);
+    filter: blur(100%);
+    -webkit-filter: blur(10%);
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+.app h1{
+    text-align: center;
+    font-size:25px ;
+    color: #000000;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 25px;
+    color:black;
+    font-weight: 600;
+} 
+.btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border:1px solid #222;
+    padding: 10px;
+    margin:10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:all 0.2s;
+}
+.btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+
+
+}
+.btn:disabled{
+    cursor: no-drop;
+
+
+}
+#next-question-btn{
+    color:#002a6e;
+    font-weight: 500;
+    width: 150px;
+    border:0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+
+
+
+}
+
+
+
+
+
+
+
